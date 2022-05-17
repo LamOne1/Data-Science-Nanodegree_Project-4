@@ -1,0 +1,36 @@
+<!doctype html>
+<head>
+	<title>Predict you dog breed!</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style> ul{ list-style-type: none;} </style>
+	<style> .body-container{ max-width: 30%; } </style>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+<center>	
+	<div class="body-container">
+		<div class="jumbotron">	
+		 	
+
+		 	
+		 	<form method="post" enctype = "multipart/form-data">
+	   			<input class = "btn btn-primary" type="file" name="image" accept="image/*"><br>
+	  			<input class = "btn btn-primary" type="submit">
+	  		</form>
+	  		<br>
+	  		<br>
+	  		<img src="temp_img.jpg" alt="img">
+          
+	  		
+	  		<h5> {{ data.prediction }} </h5> 
+	    </div>	
+	</div>
+</center>
+
+	
+</body>      
+</html>  
