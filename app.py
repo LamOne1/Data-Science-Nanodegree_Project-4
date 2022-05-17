@@ -62,7 +62,7 @@ test_Resnet50 = bottleneck_features['test']
 def predict():
 
     data = {"success": False}
-    path_img = "templates/temp_img.jpg"
+    path_img = "static/img/temp_img.jpg"
     
     if flask.request.method == "POST":
         if flask.request.files.get("image"):
