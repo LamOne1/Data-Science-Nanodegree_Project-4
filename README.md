@@ -17,6 +17,6 @@ Python requirements:
 - tqdm
 - PIL
 
-Please download this file [url](https://drive.google.com/file/d/1SL4zVqL_LZXXHyxjVhIoUxRmzxoIDmKU/view?usp=sharing), and move it bottleneck_features folder.
+Please download this [file](https://drive.google.com/file/d/1SL4zVqL_LZXXHyxjVhIoUxRmzxoIDmKU/view?usp=sharing), and move it bottleneck_features folder.
 
 
