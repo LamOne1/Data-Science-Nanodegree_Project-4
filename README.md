@@ -63,6 +63,7 @@ There are 13233 total human images.
 **Human Face Detector:** 
 
 I used OpenCV's implementation of Haar feature-based cascade classifiers to detect human faces in images.
+
 **Dog Detector:**
 
 I used a pre-trained ResNet-50 model to detect dogs in images.
@@ -125,7 +126,7 @@ The algorithm for sure is not 100% perfect. It can't always detect faces from th
 
 1) apply data augmentations.
 2) tune the hyperparameters and the head of the model.
-3) use deep ensemble (more than one model), which solves the problem of model uncertainty and help detecting outliers (images that don't belong to the training set distribution)
+3) use deep ensemble (more than one model), which solves the problem of model uncertainty and help detecting outliers (images that don't belong to the data distribution)
 
 
 
