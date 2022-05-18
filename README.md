@@ -44,19 +44,27 @@ Please download this [file](https://drive.google.com/file/d/1SL4zVqL_LZXXHyxjVhI
 
 #### Analysis:
 **Dog Dataset:**
+
 There are 133 total dog categories.
+
 There are 8351 total dog images.
 
+
 There are 6680 training dog images.
+
 There are 835 validation dog images.
+
 There are 836 test dog images.
 
 **Human Dataset:**
+
 There are 13233 total human images.
 
 **Human Face Detector:** 
+
 I used OpenCV's implementation of Haar feature-based cascade classifiers to detect human faces in images.
 **Dog Detector:**
+
 I used a pre-trained ResNet-50 model to detect dogs in images.
 
 **Models:**
@@ -94,11 +102,15 @@ dense_2 (Dense)              (None, 133)               68229
 3) Resnet50 model
 
 **Hyperparameter tuning:**
+
 I didn't do much work on hyperparamters tuning; I've only set the number of epochs to 20, and used GlobalAveragePooling2D layer instead of flatten in the head.
 
 **Results:**
+
 Accuracy of the CNN model trained from scratch to classify dog breed: 11.24%
+
 Accuracy of the VGG16 model trained from imagenet weights to classify dog breed: 43.66%
+
 Accuracy of the Resnet50 model trained from imagenet weights to classify dog breed: 79.67%
 
 
