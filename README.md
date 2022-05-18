@@ -113,5 +113,19 @@ Accuracy of the VGG16 model trained from imagenet weights to classify dog breed:
 
 Accuracy of the Resnet50 model trained from imagenet weights to classify dog breed: 79.67%
 
+### Conclusion
+In order to make my algorithm easy to use, I created a web app (app.py), that one can select any image and use it to test the model.
+
+
+The project was fun! I enjoyed working on it, and the only diffeculty I faced is developing with the web app.
+
+### Improvements:
+The algorithm for sure is not 100% perfect. It can't always detect faces from the image, and sometime it gives wrong predicitons. The algorithm can be improved by the followings:
+
+
+1) apply data augmentations.
+2) tune the hyperparameters and the head of the model.
+3) use deep ensemble (more than one model), which solves the problem of model uncertainty and help detecting outliers (images that don't belong to the training set distribution)
+
 
 
