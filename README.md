@@ -25,8 +25,6 @@ Step 7: Create a web app to use the solution
 In this project, we aim to improve the model accuracy, we will chose the checkpoint with the highest accuracy.
 Acuuracy metric is defined as the number of correct predictions over the number of total predictions.
 
-
-
 #### Requirements:
 To run the experiment, you need to install jupyter notebook to run dog_app.ipynb
 Python requirements:
@@ -117,6 +115,7 @@ Accuracy of the Resnet50 model trained from imagenet weights to classify dog bre
 ### Conclusion
 In order to make my algorithm easy to use, I created a web app (app.py), that one can select any image and use it to test the model.
 
+![alt text](https://github.com/LamyaMK/Data-Science-Nanodegree_Project-4/blob/main/images/snapshot.png?raw=true)
 
 The project was fun! I enjoyed working on it, and the only diffeculty I faced is developing with the web app.
 
