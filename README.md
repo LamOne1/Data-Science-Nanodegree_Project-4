@@ -100,7 +100,7 @@ dense_2 (Dense)              (None, 133)               68229
 2) VGG16 model
 3) Resnet50 model
 
-##### Hyperparameter tuning:
+#### Hyperparameter tuning:
 
 I didn't do much work on hyperparamters tuning; I've only set the number of epochs to 20, and used GlobalAveragePooling2D layer instead of flatten in the head.
 
