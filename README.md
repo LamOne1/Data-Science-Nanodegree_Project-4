@@ -3,12 +3,12 @@
 ![alt text](https://github.com/LamyaMK/Data-Science-Nanodegree_Project-4/blob/main/sample_dog_output.png?raw=true)
 ### Problem Introduction:
 Welcome to the dog breed classifier project. This project uses Convolutional Neural Networks (CNNs)! In this project, I built a pipeline to process real-world, user-supplied images. Given an image of a dog, your algorithm will identify an estimate of the canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed.
-##### The Problem:
+#### The Problem:
 Given a an image, we need to determine whether the image contains a human, dog, or neither. Then,
 -if a dog is detected in the image, return the predicted breed.
 -if a human is detected in the image, return the resembling dog breed.
 -if neither is detected in the image, provide output that indicates an error
-##### Strategy to solve the problem: 
+#### Strategy to solve the problem: 
 
 In order to solve the problem, I followed these stips:
 
@@ -21,7 +21,7 @@ Step 5: Create a CNN to Classify Dog Breeds (using Transfer Learning)
 Step 6: Test Your Algorithm
 Step 7: Create a web app to use the solution
 
-##### Metric:
+#### Metric:
 In this project, we aim to improve the model accuracy, we will chose the checkpoint with the highest accuracy.
 Acuuracy metric is defined as the number of correct predictions over the number of total predictions.
 
@@ -66,7 +66,7 @@ I used OpenCV's implementation of Haar feature-based cascade classifiers to dete
 
 I used a pre-trained ResNet-50 model to detect dogs in images.
 
-##### Modelling:
+#### Modelling:
 1) My own CNN model:
 ```
 
